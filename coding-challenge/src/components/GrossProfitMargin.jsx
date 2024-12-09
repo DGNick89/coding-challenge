@@ -16,14 +16,14 @@ export default function GrossProfitMargin({category}) {
 
     const grossTotalValue = totalSales.reduce((sum, profit) => sum + profit.total_value, 0)
     const revenueTotalValue = revenue.reduce((sum, total) => sum + total.total_value, 0)
-    const grossProfitMargin = grossTotalValue / revenueTotalValue
+    const grossProfitMargin = grossTotalValue / revenueTotalValue * 100
 
 
     return (
         <>
             <div>
                 <h2>Gross Profit Margin</h2>
-                %{grossProfitMargin}
+                {(Math.round(grossProfitMargin * 10) / 10).toLocaleString('en-us')}%
             </div>
         </>
     )

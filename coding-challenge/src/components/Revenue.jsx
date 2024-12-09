@@ -21,7 +21,7 @@ export default function Revenue({category}) {
         <>
             <div>
                 <h2>Revenue</h2>                
-                ${revenueTotalValue}
+                ${(revenueTotalValue).toLocaleString('en-US')}
             </div>
             
         </>

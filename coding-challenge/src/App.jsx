@@ -2,6 +2,7 @@ import Revenue from './components/Revenue'
 import Expenses from './components/Expenses'
 import GrossProfitMargin from './components/GrossProfitMargin'
 import NetProfitMargin from './components/NetProfitMargin'
+import WorkingCapitalRatio from './components/WorkingCapitalRatio'
 import { useState, useEffect } from "react"
 import './App.css'
 
@@ -27,6 +28,7 @@ function App() {
       <Expenses category={category}/>
       <GrossProfitMargin category={category} />
       <NetProfitMargin category={category} />
+      <WorkingCapitalRatio category={category} />
     </>
   )
 }

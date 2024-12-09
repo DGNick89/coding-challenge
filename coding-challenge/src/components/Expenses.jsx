@@ -17,7 +17,7 @@ export default function Expenses({category}) {
             
             <div>
                 <h2>Expenses</h2>
-                ${totalExpenses}
+                ${(totalExpenses).toLocaleString('en-US')}
             </div>
             
         </>
