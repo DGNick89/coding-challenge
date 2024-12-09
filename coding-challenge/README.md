@@ -1,3 +1,5 @@
+# Coding Challenge
+
 This project is a React-based financial dashboard that pulls data from a local JSON file and displays financial information, including revenue, expenses, gross profit margin, net profit margin, and working capital ratio. The dashboard is designed to showcase key financial metrics in a user-friendly format.
 
 ## Features
