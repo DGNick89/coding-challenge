@@ -24,11 +24,16 @@ function App() {
 
   return (
     <>
-      <Revenue category={category}/>
-      <Expenses category={category}/>
-      <GrossProfitMargin category={category} />
-      <NetProfitMargin category={category} />
-      <WorkingCapitalRatio category={category} />
+      <section className='logo'>
+        <img src="https://www.rewardpay.com.au/images/rewardpay-300x150.jpg" alt="" />
+      </section>
+      <div className="grid-container">
+        <Revenue category={category}/>
+        <Expenses category={category}/>
+        <GrossProfitMargin category={category} />
+        <NetProfitMargin category={category} />
+        <WorkingCapitalRatio category={category} />
+      </div>
     </>
   )
 }

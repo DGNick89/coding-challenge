@@ -1,4 +1,36 @@
 body {
     background-color: #242424;
-    color: hotpink;
+    color: aliceblue;
 }
+
+section {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    
+}
+
+.wrapper {
+    display: inline;
+    text-align: center;
+    border: 2px solid hotpink;
+    border-radius: 3%;
+}
+
+
+
+

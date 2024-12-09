@@ -15,9 +15,9 @@ export default function Expenses({category}) {
     return (
         <>
             
-            <div>
+            <div className="wrapper">
                 <h2>Expenses</h2>
-                ${(totalExpenses).toLocaleString('en-US')}
+                <h3>${(totalExpenses).toLocaleString('en-US')}</h3>
             </div>
             
         </>

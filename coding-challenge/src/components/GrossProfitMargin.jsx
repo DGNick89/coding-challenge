@@ -21,9 +21,9 @@ export default function GrossProfitMargin({category}) {
 
     return (
         <>
-            <div>
+            <div className="wrapper">
                 <h2>Gross Profit Margin</h2>
-                {(Math.round(grossProfitMargin * 10) / 10).toLocaleString('en-us')}%
+                <h3>{(Math.round(grossProfitMargin * 10) / 10).toLocaleString('en-us')}%</h3>
             </div>
         </>
     )

@@ -19,9 +19,9 @@ export default function Revenue({category}) {
 
     return (
         <>
-            <div>
+            <div className="wrapper">
                 <h2>Revenue</h2>                
-                ${(revenueTotalValue).toLocaleString('en-US')}
+                <h3>${(revenueTotalValue).toLocaleString('en-US')}</h3>
             </div>
             
         </>

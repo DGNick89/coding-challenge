@@ -32,9 +32,9 @@ export default function NetProfitMargin({category}) {
 
     return (
         <>
-        <div>
+        <div className="wrapper">
             <h2>Net Profit Margin</h2>
-            {(Math.round(netProfitMargin * 10) / 10).toLocaleString('en-US')}%
+            <h3>{(Math.round(netProfitMargin * 10) / 10).toLocaleString('en-US')}%</h3>
         </div>
         </>
     )
